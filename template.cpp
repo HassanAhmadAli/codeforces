@@ -80,7 +80,7 @@ int repeatcount = 1;
 
 
 void solve(istream &cin, ostream &cout) {
-    for0(i, 28) cout << (char)('A' + i) << endl;
+    for0(i, 26) cout << "cp ./template.cpp ./"<<(char)('A' + i) << ".cpp"<< endl;
 
 }
 
