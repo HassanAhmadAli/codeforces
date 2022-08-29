@@ -19,10 +19,10 @@
 using namespace std;
 
 #define endl "\n"
-#define in std::cin >>
-#define out std::cout <<
-#define print(x) std::cout << (x)
-#define printl(x) std::cout << (x) << "\n"
+#define in cin >>
+#define out cout <<
+#define print(x) cout << (x)
+#define printl(x) cout << (x) << "\n"
 #define var auto
 #define ll long long
 #define d double
@@ -66,12 +66,12 @@ constexpr int MOD = 998244353;
 int repeatcount_g = 1;
 
 void solve(istream &cin, ostream &cout) {
-
+out 1;
 
 }
 
 
-signed main() {
+int main() {
 //    in repeatcount_g;
     cin.tie(nullptr);
     cout.tie(nullptr);
