@@ -76,7 +76,7 @@ signed main() {
     cin.tie(nullptr);
     cout.tie(nullptr);
     ios::sync_with_stdio(false);
-    while (repeatcount_g)
+    while (repeatcount_g--)
         solve(cin, cout);
     return 0;
 }
